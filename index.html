@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        
+        <!--==================== SWIPER CSS ====================-->
+        <link rel="stylesheet" href="">
+        
+        <!--==================== CSS ====================-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Sienna's Portfolio</title>
+    </head>
+    
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="" class="nav__logo">Sienna's Portfolio</a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list grid">
+                        <li class="nav__items">
+                            <a href="#home" class="nav__link">
+                                <i class="uil uil-home nav__icon"></i> Home
+                            </a>
+                        </li>
+                        <li class="nav__items">
+                            <a href="#about" class="nav__link">
+                                <i class="uil uil-user nav__icon"></i> About
+                            </a>
+                        </li>
+                        <li class="nav__items">
+                            <a href="#work" class="nav__link">
+                                <i class="uil uil-desktop nav__icon"></i> Portfolio 
+                            </a>
+                        </li>
+                    </ul>
+                    <i class="uil uil-times nav__close" id="nav-close"></i>
+                </div>
+
+                <div class="nav__btns">
+                    <i class="uil uil-moon change-theme" id="theme-button"></i>
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="uil uil-bars"></i> 
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div class="home__content grid">
+                        <div class="home__social">
+                            <a href="mailto:sluong.hba2024@ivey.ca" target="_blank" class="home__social-icon">
+                                <i class="uil uil-envelope"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/sienna-luong-9655121a6/" target="_blank" class="home__social-icon">
+                                <i class="uil uil-linkedin"></i>
+                            </a>
+
+                            <a href="https://github.com/siennaluong" target="_blank" class="home__social-icon">
+                                <i class="uil uil-github"></i>
+                            </a>
+                            <a href="https://medium.com/@siennaluong09" target="_blank" class="home__social-icon">
+                                <i class="uil uil-medium-m"></i>
+                            </a>
+                        </div>
+
+                        <div class="home__img">
+                            <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <mask id="mask0" mask-type="alpha">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                </mask>
+                                <g mask="url(#mask0)">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                    <image class="home__blob-img" x='5' y='-5' xlink:href="assets/img/perfil.png"/>
+                                </g>
+                            </svg>
+                        </div>
+
+                        <div class="home__data">
+                            <h1 class="home__title">Hi, I am Sienna</h1>
+                            <h3 class="home__subtitle">Aspiring Software Engineer and Product Manager</h3>
+                            <p class="home__description"></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+
+            <section class="about section" id="about">
+                <h2 class="section__title">About me</h2>
+                <span class="section__subtitle">My Description</span>
+                <div class="container about__container grid">
+                    <img src="assets/img/about.png" alt="" class="about__img">
+
+                    <div class="about__data">
+                        <p class="about__description">
+                            I am a third year student, pursuing a double degree in Business and Computer Science at Western Univeristy <br>
+                           I am deeply fascinated by the application of technology in real world, 
+                            therefore I hope to create or contribute to a successful technology product, either as an engineer or a PM. Some topics I would love to talk about are ML, Fintech, Healthtech,...
+                            <br>
+                            Outside of school, I participated in numerous hackathons and case competitions. Some of my hobbies and interests are cafe hopping, baking, learning language, stock investing,...
+                        </p>
+                    </div>
+
+                    <div class="about__buttons">
+                        <a download="" href="assets/pdf/SiennaL.pdf" class="button button--flex">
+                            My Resume <i class="uil uil-download-alt"></i>
+                         </a>
+                    </div>
+
+                </div>
+            </section>
+
+
+        </main>
+        <main class="portfolio" id="work">
+            <h2 class="section__title">My Work</h2>
+            <span class="section__subtitle">Check out some of my works...</span>
+            <h2 class="sm-heading" style="margin-top: 60px; text-align: center;">
+                <span class="text-secondary">Technical Projects</span>
+            </h2>
+            <br>
+            <div class="projects">
+                <div class="containerBox">
+                    <div class="project1">
+                    <a href="#!">
+                        <img
+                        src="assets/img/projects1.png"
+                        alt="portfolio website"
+                        class="image"
+                        />
+                    </a>
+                    </div>
+                    <div class="more-info">
+                    <a
+                        href="https://devpost.com/software/moodify-wx9ebm"
+                        target="_blank "
+                        class="btn btn-default btn-lg"
+                    >
+                        SEE PROJECT
+                    </a>
+                    </div>
+                    <div class="more-info">
+                    <a
+                        href="https://github.com/siennaluong/moodify"
+                        target="_blank "
+                        class="btn btn-default btn-lg"
+                    >
+                        SEE CODE
+                    </a>
+                    </div>
+                </div>
+
+                <div class="containerBox">
+                    <div class="project5">
+                        <a href="#!">
+                            <img src="assets/img/projects3.png" alt="moodify" />
+                        </a>
+                    </div>
+                    <div class="more-info">
+                        <a
+                            href="https://github.com/siennaluong/Distributed-password-cracker"
+                            target="_blank"
+                            class="btn btn-default btn-lg"
+                        >
+                            SEE CODE
+                        </a>
+                    </div>
+                </div>
+                <div class="containerBox">
+                    <div class="project4">
+                        <a href="#!">
+                            <img
+                            src="assets/img/tagman.png"
+                            alt="Harry potter"
+                            />
+                        </a>
+                    </div>
+                    <div class="more-info">
+                        <a
+                            href="https://simmer.io/@sienn/tagman"
+                            target="_blank "
+                            class="btn btn-default btn-lg"
+                        >
+                            SEE PROJECT
+                        </a>
+                    </div>
+                    <div class="more-info">
+                        <a
+                            href="https://github.com/siennaluong/TagMan"
+                            target="_blank "
+                            class="btn btn-default btn-lg"
+                        >
+                            SEE CODE
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="see-more">
+                <a
+                    href= "https://github.com/siennaluong"
+                    target="_blank "
+                    class="btn btn-default btn-lg"
+                >
+                    SEE MORE
+                </a>
+            </div>
+            
+            </div>
+            </div>
+        </main>
+        <!--==================== FOOTER ====================-->
+        
+        <footer class="footer">
+            <div class="footer__bg">
+                <div class="footer__container container grid">
+                    <div>
+                        <h1 class="footer__title">Sienna Luong</h1>
+                        <span class="footer__subtitle">Aspiring SWE and PM</span>
+                    </div>
+                    <div class="footer__social">
+                        <a href="mailto:sluong.hba2024@ivey.ca" target="_blank" class="footer__social">
+                            <i class="uil uil-envelope"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/sienna-luong-9655121a6/" target="_blank" class="footer__social">
+                            <i class="uil uil-linkedin"></i>
+                        </a>
+            
+                        <a href="https://github.com/siennaluong" target="_blank" class="footer__social">
+                            <i class="uil uil-github"></i>
+                        </a>
+                        <a href="https://medium.com/@siennaluong09" target="_blank" class="footer__social">
+                            <i class="uil uil-medium-m"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--==================== SCROLL TOP ====================-->
+        
+
+        <!--==================== SWIPER JS ====================-->
+        <script src=""></script>
+
+        <!--==================== MAIN JS ====================-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
