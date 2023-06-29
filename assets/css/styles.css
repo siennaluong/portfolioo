@@ -215,7 +215,7 @@ img {
 }
 
 .nav__list {
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 2rem;
 }
 
@@ -394,8 +394,6 @@ img {
 
 .containerBox {
   width: fit-content;
-  border-radius: 6px;
-  border: var(--first-color) solid;
 }
 .see-more {
   padding-top: 36px;
@@ -443,13 +441,13 @@ img {
 
 @media screen and (min-width: 1171px) {
   .projects {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1170px) {
   .projects {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
